@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Step Converter App</title>
+</head>
+<body>
+    <video autoplay muted loop id="myVideo">
+        <source src="walk.mp4" type="video/mp4">
+    </video>
+    <div class="wrapper">
+        <h2 class="title">Step Coverter App</h2>
+        <h3 id="info">Enter Step and Hit calculate</h3>
+        <input type="number" onfocus="this.value=''"
+        id="step">
+        <!-- Loader Image here - Later-->
+        <div class="loader">
+            <img src="loader.gif" alt="">
+        </div>
+        <p id="km"></p>
+        <p id="calories"></p>
+        <!-- Create 2 buttons for claculate and clear -->
+        <button id="btn" class="calculate">calculate</button>
+        <button id="btn" class="clear">Clear</button>
+        <br>
+        <br>
+        <footer class="footer">
+            <h5>Inspired By COVID19!</h5>
+            <h5>Design Arapzz &copy;</h5>
+        </footer>
+
+
+    </div>
+
+
+    <script src="app.js"></script>
+</body>
+</html>
